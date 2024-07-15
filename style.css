@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap");
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1px;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+  font-size: 15px;
+}
+body,
+div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:#ffffff;
+  gap: 3px;
+  transition: 0.5s all;
+}
